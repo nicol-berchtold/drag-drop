@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-family: sans-serif;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  label,
+  input,
+  textarea {
+    display: block;
+    margin: 0.5rem 0;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input,
+  textarea {
+    font: inherit;
+    padding: 0.5rem 0.4rem;
+    width: 100%;
+    max-width: 30rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  input:focus,
+  textarea:focus {
+    outline: none;
+    background: #fde4cf;
+  }
+  
+  button {
+    font: inherit;
+    background: #9a031e;
+    border: 1px solid #9a031e;
+    cursor: pointer;
+    color: white;
+    padding: 0.75rem 1rem;
+    border-radius: 5px;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  button:hover,
+  button:active {
+    background: #a80041;
+    border-color: #a80041;
+  }
+  
+  .projects {
+    margin: 1rem;
+    border: 1px solid #9a031e;
+  }
+  
+  .projects header {
+    background: #9a031e;
+    height: 3.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #finished-projects {
+    border-color: #0f4c5c;
+  }
+  
+  #finished-projects header {
+    background: #0f4c5c;
+  }
+  
+  .projects h2 {
+    margin: 0;
+    color: white;
+  }
+  
+  .projects ul {
+    list-style: none;
+    margin: 0;
+    padding: 1rem;
+  }
+  
+  .projects li {
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.26);
+    padding: 1rem;
+    margin: 1rem;
+    background: white;
+  }
+  
+  .projects li h2 {
+    color: #9a031e;
+    margin: 0.5rem 0;
+  }
+  
+  #finished-projects li h2 {
+    color: #0f4c5c;
+  }
+  
+  .projects li h3 {
+    color: #575757;
+    font-size: 1rem;
+  }
+  
+  .project li p {
+    margin: 0;
+  }
+  
+  .droppable {
+    background: #99676B;
+  }
+  
+  #finished-projects .droppable {
+    background: #088A9C;
+  }
+  
+  #user-input {
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid #9a031e;
+    background: #f7f7f7;
+  }
+  
+  .dropped {
+    background-color: black;
+  }
